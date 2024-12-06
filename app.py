@@ -34,7 +34,7 @@ workouts_schema = WorkoutSchema(many=True)
 def get_db_connection():
     db_name = "fitness_center_db"
     user = "root"
-    password = "Braxton0630!" # be sure to change this before submitting assignment
+    password = "my_password" 
     host = "localhost"
  
     try:
