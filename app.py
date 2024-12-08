@@ -322,3 +322,6 @@ def schedule_workout():
         if conn and conn.is_connected:
             cursor.close()
             conn.close()
+            
+if __name__ == '__main__':
+    app.run(debug=True)
